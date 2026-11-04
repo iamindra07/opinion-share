@@ -9,11 +9,15 @@
   }
 
   body {
-    @apply bg-neutral-50 text-neutral-900 antialiased;
+    @apply bg-neutral-50 text-neutral-950 antialiased;
   }
 
   * {
-    @apply border-neutral-200;
+    @apply border-neutral-800;
+  }
+
+  ::placeholder {
+    @apply text-neutral-500;
   }
 }
 
@@ -27,27 +31,27 @@
   }
 
   .btn-outline {
-    @apply border border-neutral-300 bg-white text-neutral-700 focus:ring-brand-500 hover:bg-neutral-50 active:scale-95;
+    @apply border border-neutral-700 bg-neutral-100 text-neutral-950 focus:ring-brand-500 hover:bg-neutral-800 active:scale-95;
   }
 
   .btn-ghost {
-    @apply text-neutral-600 focus:ring-brand-500 hover:bg-neutral-100 active:scale-95;
+    @apply text-neutral-600 focus:ring-brand-500 hover:bg-neutral-800 active:scale-95;
   }
 
   .input {
-    @apply block w-full rounded-xl border border-neutral-200 bg-white px-4 py-2.5 text-neutral-900 placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all duration-200;
+    @apply block w-full rounded-xl border border-neutral-700 bg-neutral-100 px-4 py-2.5 text-neutral-950 placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all duration-200;
   }
 
   .card {
-    @apply rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-200 hover:shadow-md;
+    @apply rounded-2xl border border-neutral-800 bg-neutral-100 shadow-sm transition-all duration-200 hover:shadow-md;
   }
 
   .avatar {
-    @apply rounded-full overflow-hidden border border-neutral-200 bg-neutral-100;
+    @apply rounded-full overflow-hidden border border-neutral-800 bg-neutral-900;
   }
 
   .badge {
-    @apply inline-flex items-center rounded-full border border-neutral-200 px-2.5 py-0.5 text-xs font-medium text-neutral-600 bg-neutral-100;
+    @apply inline-flex items-center rounded-full border border-neutral-800 px-2.5 py-0.5 text-xs font-medium text-neutral-400 bg-neutral-900;
   }
 }
 
